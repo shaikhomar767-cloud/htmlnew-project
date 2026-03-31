@@ -1,0 +1,27 @@
+body{
+    background-color:black;
+    background: linear-gradient(purple,blue,white,white); 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: darkred;
+}
+ul>li{
+    font-weight: bold;
+}
+ul>li:hover{
+    color: rgb(17, 171, 30);
+}
+p::first-letter{
+    font-size: 50px;
+}
+a:after{
+    content: "🌕";
+}
+ul>li:before{
+    content:"🚀";
+}
